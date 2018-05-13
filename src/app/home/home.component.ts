@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  goalText: string = "My first life goal";
   constructor() { }
 
   ngOnInit() {
